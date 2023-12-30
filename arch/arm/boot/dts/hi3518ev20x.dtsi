@@ -291,6 +291,7 @@
 			reset-names = "mmc_reset";
 			bus-width = <4>;
 			cap-sd-highspeed;
+			cap-sdio-irq;
 			devid = <0>;
 			status = "disabled";
 		};
@@ -307,10 +308,6 @@
 			bus-width = <4>;
 			cap-sd-highspeed;
 			cap-sdio-irq;
-			sd-uhs-sdr12;
-			sd-uhs-sdr25;
-			sd-uhs-sdr50;
-			sd-uhs-sdr104;
 			devid = <1>;
 			status = "disabled";
 		};
